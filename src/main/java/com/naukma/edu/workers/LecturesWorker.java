@@ -17,4 +17,8 @@ public class LecturesWorker {
         return lecture;
     }
 
+    public Lecture getLecture(int id) {
+        return lectureDao.getLecture(id);
+    }
+
 }
